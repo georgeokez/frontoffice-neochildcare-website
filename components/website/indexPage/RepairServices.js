@@ -24,14 +24,14 @@ function RepairServices() {
           w='90%'
           textAlign='center'
         >
-          Popular repairs / services
+          Service
         </Heading>
         <Text
           w={{ base: '60%', md: '60%', xl: '40%' }}
           textAlign='center'
           fontSize='sm'
         >
-          Here are some of the most on demand repair services
+          Here are some of the most on demand  services
         </Text>
         <Divider
           orientation='horizontal'
@@ -68,7 +68,7 @@ function RepairServices() {
           />
           <Heading fontSize='xs' lineHeight='2'>
             {' '}
-            OIL & FILTER CHANGE
+            
           </Heading>
         </Box>
 
@@ -88,7 +88,7 @@ function RepairServices() {
             alt='shock-absorber'
           />
           <Heading fontSize='xs' lineHeight='2'>
-            SHOCK ABSORBER/STRUTS{' '}
+            
           </Heading>
         </Box>
 
@@ -108,7 +108,7 @@ function RepairServices() {
             alt='stabilizer-bar-link'
           />
           <Heading fontSize='xs' lineHeight='2'>
-            STABILIZER BAR LINKS
+           
           </Heading>
         </Box>
 
@@ -128,7 +128,7 @@ function RepairServices() {
             alt='bushing-replacements'
           />
           <Heading fontSize='xs' lineHeight='2'>
-            BUSHINGS REPLACEMENT
+            
           </Heading>
         </Box>
 
@@ -148,7 +148,7 @@ function RepairServices() {
             alt='fluid-leak-repairs'
           />
           <Heading fontSize='xs' lineHeight='2'>
-            FLUID LEAK REPAIRS
+            
           </Heading>
         </Box>
       </SimpleGrid>

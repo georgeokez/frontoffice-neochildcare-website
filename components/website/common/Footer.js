@@ -86,7 +86,7 @@ function Footer() {
               <ListItem>
                 <Link href='/'>
                   {' '}
-                  <a>Become a Jiffix Expert</a>{' '}
+                  <a>Lorem</a>{' '}
                 </Link>
               </ListItem>
               <ListItem>
@@ -142,22 +142,22 @@ function Footer() {
               <ListItem>
                 <Link href='/'>
                   {' '}
-                  <a>Garages/Workshop</a>{' '}
+                  <a>lorem</a>{' '}
                 </Link>
               </ListItem>
               <ListItem>
                 <Link href='/'>
-                  <a>Filling Station/Lube Bay</a>
+                  <a>lorem</a>
                 </Link>{' '}
               </ListItem>
               <ListItem>
                 <Link href='/'>
-                  <a>Machinists</a>{' '}
+                  <a>lorem</a>{' '}
                 </Link>{' '}
               </ListItem>
               <ListItem>
                 <Link href='/'>
-                  <a>Parts Vendors</a>{' '}
+                  <a>lorem</a>{' '}
                 </Link>{' '}
               </ListItem>
             </List>
@@ -173,14 +173,14 @@ function Footer() {
               </Link>
               <br />
               <Link href='/email'>
-                <a>hey@jiffix.com.ng</a>
+                <a>lorem@lorem.com</a>
               </Link>
             </Text>
           </Box>
         </SimpleGrid>
 
         <Text fontSize='xs' textAlign='center' pb={10} color='white'>
-          © 2020 CopyRights Jiffix Technologies
+          © 2020 
         </Text>
       </Box>
     </>

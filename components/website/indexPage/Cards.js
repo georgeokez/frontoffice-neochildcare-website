@@ -9,7 +9,7 @@ export default class SimpleSlider extends Component {
   render() {
     const settings = {
       infinite: true,
-      speed: 500,
+      speed: 300,
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true,
@@ -50,14 +50,13 @@ export default class SimpleSlider extends Component {
                   1
                 </Heading>
               </Box>
-              <Heading fontSize='sm'>REQUEST INSPECTION</Heading>
+              <Heading fontSize='sm'>REQUEST Service</Heading>
               <Text
                 px={{ base: '8%', md: '28%', xl: '30%' }}
                 textAlign='center'
                 fontSize='xs'
               >
-                In 2-clicks, inspection of your vehicles can be scheduled at
-                your home or office.
+                In 2-clicks, 
               </Text>
               <Image
                 src='https://res.cloudinary.com/dutzmwqpe/image/upload/v1606805577/Group_2660_sy6aid.svg'
@@ -99,14 +98,13 @@ export default class SimpleSlider extends Component {
                   2
                 </Heading>
               </Box>
-              <Heading fontSize='sm'>BOOK REPAIR/MAINTENANCE</Heading>
+              <Heading fontSize='sm'>BOOK Moark Service</Heading>
               <Text
                 px={{ base: '8%', md: '28%', xl: '30%' }}
                 textAlign='center'
                 fontSize='xs'
               >
-                Get instant quote on repairs and schedule a convenient time. A
-                Jiffix Expert is assigned.
+                Get instant Service
               </Text>
               <Image
                 src='https://res.cloudinary.com/dutzmwqpe/image/upload/v1606811730/Group_2665_v628ax.svg'
@@ -148,14 +146,13 @@ export default class SimpleSlider extends Component {
                   3
                 </Heading>
               </Box>
-              <Heading fontSize='sm'>VEHICLE HEALTH REPORT</Heading>
+              <Heading fontSize='sm'> HEALTH REPORT</Heading>
               <Text
                 px={{ base: '8%', md: '28%', xl: '30%' }}
                 textAlign='center'
                 fontSize='xs'
               >
-                Jiffix inspection report tells you the health status of your
-                vehicles after every repair activity, and what needs attention.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, voluptate?
               </Text>
               <Image
                 src='https://res.cloudinary.com/dutzmwqpe/image/upload/v1606812075/Group_2669_uyiiyf.svg'
@@ -197,14 +194,14 @@ export default class SimpleSlider extends Component {
                   4
                 </Heading>
               </Box>
-              <Heading fontSize='sm'>REPAIR HISTORY & REMINDERS</Heading>
+              <Heading fontSize='sm'>HISTORY & REMINDERS</Heading>
               <Text
                 px={{ base: '8%', md: '28%', xl: '30%' }}
                 textAlign='center'
                 fontSize='xs'
               >
-                Our digital Log Book tells you when your next vehicle
-                maintenance is due.
+                Our digital Log Book tells you when your 
+                
               </Text>
               <Image
                 src='https://res.cloudinary.com/dutzmwqpe/image/upload/v1606812437/Group_2665_1_u7g4pk.svg'

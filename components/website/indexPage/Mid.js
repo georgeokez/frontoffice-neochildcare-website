@@ -39,7 +39,7 @@ function Mid() {
               lineHeight='1.4'
             >
               {' '}
-              We are solving these problems for car/fleet owners
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, illum.
             </Heading>
             <Text
               w={{ base: '100%', md: '60%', xl: '70%' }}
@@ -47,8 +47,7 @@ function Mid() {
               textAlign='center'
               fontSize='sm'
             >
-              Jiffix is bringing accountability, professionalism and standard
-              engineering practice to every repair/inspection
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, quaerat?
             </Text>
             <Divider
               orientation='horizontal'
@@ -92,12 +91,10 @@ function Mid() {
               </Box>
             </Box>
             <Heading fontSize='xs' ml={2} float='left'>
-              QUACKERY
+              Lorem
             </Heading>
             <Text mt={10} ml={2} textAlign='left' fontSize='xs'>
-              Our qualified, experienced and trained Experts are assigned jobs
-              based on area of specialization/training. Thorough diagnosis and
-              OE repair procedures followed.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, inventore.
             </Text>
           </Box>
 
@@ -119,9 +116,7 @@ function Mid() {
               DISHONESTY
             </Heading>
             <Text mt={10} ml={2} textAlign='left' fontSize='xs'>
-              Total transparency about what is wrong with the car, parts
-              replaced or repaired, fair and transparent pricing with warranties
-              of up to 12 months on parts and services.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste et eveniet rem aperiam exercitationem, ex provident tempore suscipit esse qui!
             </Text>
           </Box>
 
@@ -148,11 +143,10 @@ function Mid() {
               ml={2}
               float='left'
             >
-              DELAY IN SERVICE DELIVERY
+              Lorem
             </Heading>
             <Text mt={10} ml={2} textAlign='left' fontSize='xs'>
-              Get instant quotation, skip the long garage queue/waiting time,
-              schedule repairs and our Experts come to you at home or office.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore dolorem reprehenderit exercitationem, voluptates sunt debitis!
             </Text>
           </Box>
         </SimpleGrid>
@@ -171,15 +165,14 @@ function Mid() {
             lineHeight='1.4'
           >
             {' '}
-            Jiffix one-stop vehicle management platform
+            Lorem
           </Heading>
           <Text
             w={{ base: '80%', md: '60%', xl: '40%' }}
             textAlign='center'
             fontSize='sm'
           >
-            Leverage technology for a stress-free, easy, fast, efficient and
-            accountable repair experienced with Jiffix.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, doloribus.
           </Text>
           <Divider
             orientation='horizontal'

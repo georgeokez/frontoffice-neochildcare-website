@@ -33,8 +33,7 @@ function MobileAppSec() {
             Get the Mobile App
           </Heading>
           <Text fontSize='xs' w={{ base: '95%', md: '55%', xl: '85%' }}>
-            Remotely manage your vehicles maintenance & repair directly from
-            your mobile phone
+            Get our services stright from your mobile app
           </Text>
           <Box
             display='flex'
@@ -123,7 +122,7 @@ function MobileAppSec() {
             alt='request-inspection'
           />
           <Text fontSize='xs' fontWeight='600'>
-            Request Inspection
+           Request Services
           </Text>
         </Box>
 
@@ -133,7 +132,7 @@ function MobileAppSec() {
             alt='Segun Adebayo'
           />
           <Text fontSize='xs' fontWeight='600'>
-            Book Repair, Maintenance
+            Bookmark Services
           </Text>
         </Box>
 
@@ -143,7 +142,7 @@ function MobileAppSec() {
             alt='Segun Adebayo'
           />
           <Text fontSize='xs' fontWeight='600'>
-            Get Daily AutoTips
+            Get Daily Tips
           </Text>
         </Box>
 

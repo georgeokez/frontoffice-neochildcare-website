@@ -18,13 +18,13 @@ export default function Home() {
       <>
         <Nav />
         <TopCarousel />
-        {/* <Mid />
+        <Mid />
         <Cards />
         <RepairServices />
         <MobileAppSec />
         <Affiliates />
         <BottomCarousel />
-        <Footer /> */}
+        <Footer />
       </>
     </>
   );
