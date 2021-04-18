@@ -17,11 +17,11 @@ function Header({ text1, text2 }) {
             lineHeight={{ base: "7", md: "10", xl: "10" }}
             textAlign="left"
             fontSize={{ base: "xl", md: "4xl", xl: "4xl" }}
-            color="blue.500"
+            color="white"
           >
             {text1}
           </Heading>
-          <Text fontSize="xs" mt={3} textAlign="left" color="blue.500">
+          <Text fontSize="xs" mt={3} textAlign="left" color="white">
             {text2}
           </Text>
         </Box>
