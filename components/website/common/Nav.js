@@ -14,17 +14,32 @@ function MobileNav() {
         height="100vh"
       >
         <Link href="/startpage">
-          <Image h={30} mt="10%" ml="10%" src="/neo_logo5.png" alt="Logo" />
+          <Image
+            h={30}
+            mt="10%"
+            ml="10%"
+            src="/neo_logo5-removebg-preview.png"
+            alt="Logo"
+          />
         </Link>
         <List mt="20%" mx="35%" fontSize="xs" fontWeight="500" color="#1A97CF">
           {/* <ListItem my='5'>
             <Link href='/autotips'>AUTOTIPS</Link>
           </ListItem> */}
           <ListItem my="5">
-            <Link href="website/faq">FAQ'S</Link>
+            <Link href="website/faq">Home</Link>
           </ListItem>
           <ListItem my="5">
-            <Link href="website/contact">CONTACT</Link>
+            <Link href="website/contact">About</Link>
+          </ListItem>
+          <ListItem my="5">
+            <Link href="website/contact">Our Impact</Link>
+          </ListItem>
+          <ListItem my="5">
+            <Link href="website/contact">Our Team</Link>
+          </ListItem>
+          <ListItem my="5">
+            <Link href="website/contact">Blog</Link>
           </ListItem>
         </List>
         <Box w="30%" display="flex" flexDirection="column" mx="25%">
@@ -109,12 +124,20 @@ function Nav() {
           fontWeight="500"
           color={navText ? "#1A97CF" : "white"}
         >
-          <ListItem>{/* <Link href='/autotips'>AUTOTIPS</Link> */}</ListItem>
-          <ListItem>
-            <Link href="website/faq">FAQ'S</Link>
+          <ListItem my="5">
+            <Link href="website/faq">Home</Link>
           </ListItem>
-          <ListItem>
-            <Link href="website/contact">CONTACT</Link>
+          <ListItem my="5">
+            <Link href="website/contact">About</Link>
+          </ListItem>
+          <ListItem my="5">
+            <Link href="website/contact">Our Impact</Link>
+          </ListItem>
+          <ListItem my="5">
+            <Link href="website/contact">Our Team</Link>
+          </ListItem>
+          <ListItem my="5">
+            <Link href="website/contact">Blog</Link>
           </ListItem>
 
           <Box width="30%" display="flex" justifyContent="space-between">

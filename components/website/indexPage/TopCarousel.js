@@ -22,7 +22,7 @@ export default class TopCarousel extends Component {
       <Box>
         <Slider {...settings}>
           <Box
-            bg="url('/about_neo.jpg')"
+            bg="url('/Group 32.png')"
             bgPosition="center"
             bgRepeat="no-repeat"
             bgSize="cover"
@@ -34,7 +34,7 @@ export default class TopCarousel extends Component {
             />
           </Box>
           <Box
-            bg="url('/neo-childcare_dentist.jpeg')"
+            bg="url('/Group 32 (1).png')"
             bgPosition="center"
             bgRepeat="no-repeat"
             bgSize="cover"
@@ -46,7 +46,7 @@ export default class TopCarousel extends Component {
             />
           </Box>
           <Box
-            bg="url('/blog-post-2_9.png')"
+            bg="url('/Group 33.png')"
             bgPosition="center"
             bgRepeat="no-repeat"
             bgSize="cover"
