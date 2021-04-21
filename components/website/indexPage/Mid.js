@@ -9,11 +9,14 @@ import {
 } from "@chakra-ui/react";
 
 import allIcons from "../../dashboard/icons/Icons";
+import { motion } from "framer-motion";
 
 function Mid() {
   const { QuackeryIcon } = allIcons;
   const { DishonestyIcon } = allIcons;
   const { DelayIcon } = allIcons;
+
+  const MotionBox = motion(Box);
 
   return (
     <>

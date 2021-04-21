@@ -29,12 +29,7 @@ function MobileNav() {
           <ListItem my="5">
             <Link href="website/faq">Home</Link>
           </ListItem>
-          <ListItem my="5">
-            <Link href="website/contact">About</Link>
-          </ListItem>
-          <ListItem my="5">
-            <Link href="website/contact">Our Impact</Link>
-          </ListItem>
+
           <ListItem my="5">
             <Link href="website/contact">Our Team</Link>
           </ListItem>
@@ -101,15 +96,15 @@ function Nav() {
         navShadow ? " 0px 2px 15px rgba(26, 151, 207, 0.1)" : "transparent"
       }
       color={navText ? "blue" : "white"}
-      backgroundColor={navBg ? "white" : "transparent"}
+      backgroundColor={navBg ? "white" : "white"}
       style={{ transition: "1s ease" }}
     >
       <Box
         display="flex"
         justifyContent="space-between"
         alignItems="center"
-        py={10}
-        height="10vh"
+        py={8}
+        height="8vh"
         px={{ base: "10", md: "20", xl: "20" }}
       >
         <Link href="/startpage">
@@ -119,19 +114,13 @@ function Nav() {
           display={{ base: "none", md: "none", xl: "flex" }}
           justifyContent="space-around"
           alignItems="center"
-          w="60%"
+          w="50%"
           fontSize="xs"
           fontWeight="500"
-          color={navText ? "#1A97CF" : "white"}
+          color={navText ? "#1A97CF" : "#1A97CF"}
         >
           <ListItem my="5">
             <Link href="website/faq">Home</Link>
-          </ListItem>
-          <ListItem my="5">
-            <Link href="website/contact">About</Link>
-          </ListItem>
-          <ListItem my="5">
-            <Link href="website/contact">Our Impact</Link>
           </ListItem>
           <ListItem my="5">
             <Link href="website/contact">Our Team</Link>

@@ -19,8 +19,54 @@ export default class TopCarousel extends Component {
       autoplaySpeed: 3000,
     };
     return (
-      <Box>
-        <Slider {...settings}>
+      <Box
+        w="100%"
+        h="100vh"
+        position="relative"
+        backgroundImage="url(andrae-ricketts-3Qi0PkM_Wes-unsplash.jpg)"
+        backgroundRepeat="no-repeat"
+        backgroundPosition="center center"
+        backgroundSize="cover"
+        d="flex"
+        justifyContent="center"
+        alignItems="center"
+      >
+        <Box textAlign="center" zIndex="10">
+          <Text
+            fontSize="3rem"
+            as="h2"
+            color="orange.500"
+            fontWeight="600"
+            textShadow="2xl"
+          >
+            Our Belief is Simple...{" "}
+          </Text>
+          <Text
+            w="65%"
+            mx="auto"
+            fontSize="1.5rem"
+            color="whitesmoke"
+            fontWeight="400"
+          >
+            That every child, everywhere, regardless of tribe, ethnicity, race,
+            religion or social strata deserves an optimal shot at life!
+          </Text>
+        </Box>
+        {/* <Image
+          src="/andrae-ricketts-3Qi0PkM_Wes-unsplash.jpg"
+          w="100%"
+          h="100%"
+        /> */}
+        <Box
+          position="absolute"
+          w="100%"
+          h="100%"
+          top="0"
+          left="0"
+          bg="rgba(44, 130, 201, .7)"
+          zIndex="0"
+        ></Box>
+        {/* <Slider {...settings}
           <Box
             bg="url('/Group 32.png')"
             bgPosition="center"
@@ -56,7 +102,7 @@ export default class TopCarousel extends Component {
               text2="Starting with ‘Jojolo’, our Mobile Sick Bay, we aim to reach children in schools, homes, communities and public events with access to routine health screenings, vaccinations and emergency services."
             />
           </Box>
-        </Slider>
+        </Slider> */}
       </Box>
     );
   }
